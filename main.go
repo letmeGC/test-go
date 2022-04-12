@@ -15,5 +15,5 @@ func main() {
 }
 
 func hello(w http.ResponseWriter, _ *http.Request) {
-	w.Write([]byte("hello k8s test go"))
+	w.Write([]byte("hello k8s test go 触发器))
 }
